@@ -1,0 +1,68 @@
+body {
+    background-color: #B0BCC2;
+    /* text-align: center; */
+    font-family: 'Patrick Hand', cursive;
+    font-size: large;
+}
+
+button {
+    border-radius: 8px;
+    padding: 14px 40px;
+    font-size: 24px;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+.play_buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.pause_buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 15px;
+}
+
+#red_button {
+    background-color: #fa7e6e;
+}
+
+#pause_red {
+    background-color: #D46B5D;
+}
+
+#orange_button {
+    background-color: #fab854;
+}
+
+#pause_orange {
+    background-color: #E69C6E;
+}
+
+#green_button {
+    background-color: #93fab9;
+}
+
+#pause_green {
+    background-color: #84E0A6;
+}
+
+#blue_button {
+    background-color: #69b8fa;
+}
+
+#pause_blue {
+    background-color: #5EA6E0;
+}
+
+a:hover {
+    cursor: pointer;
+    color: #7105E3;
+}
